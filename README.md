@@ -1,3 +1,5 @@
+🐳 If you find incorrect information, issues and pull requests are welcome.
+
 ---
 icon: books
 layout:
