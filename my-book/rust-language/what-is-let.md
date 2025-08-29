@@ -22,10 +22,9 @@ fn main(){
 ## &#x20;`if let`
 
 ```rust
-let maybe:i32 = 10;
-let x:i32;
+let maybe=Some(10)
 
-if let x = maybe {print!("{x}")} //10
+if let Some(x) = maybe {print!("{x}")} //10
 else {println!("매칭실패");}
 ```
 
@@ -37,22 +36,18 @@ let 은 할당한다! 이고, if let 은 타입이 맞으면 할당한다! 이�
 ### &#x20;`while let`
 
 ```rust
-let x:i32=10;
-let t:i32;
-while let t=x {
-    print!("{}", x); //10
+let x=Some(10)
+while let Some(t)=x {
+    print!("{}", t); //10
 }
 ```
 
-t 와 x 의 타입이 같으면 let's binding 후 { } 를 반복한다.&#x20;
-
-이 예시에서는 타입이 i32 라서 타입이 안 바뀌는데, enum 같은 것들은 바뀔 수 있으므로 그때 쓸 것 같다.\
-
+t 와 x 의 타입이 같으면 let's binding 후 { } 를 반복한다. 타입만 같으면 계속..
 
 ## `let else`&#x20;
 
 ```rust
-let x:i32=0.9 else{ print!("not match");}
+let Some(x)=y else{ print!("not match");}
 ```
 
 매칭이 안되면 { } 실행한다.
