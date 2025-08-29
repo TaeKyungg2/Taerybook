@@ -9,7 +9,8 @@
 * [Flutter/Dart](my-book/editor/README.md)
   * [Flutter Widgets101 vedio and many concepts.](my-book/editor/flutter-widgets101-vedio-and-many-concepts..md)
 * [Deep Learning](my-book/deep-learning.md)
-* [Rust language](my-book/rust-language.md)
+* [Rust language](my-book/rust-language/README.md)
+  * [What is "Let"](my-book/rust-language/what-is-let.md)
 * [Algorithm/Data structure](my-book/algorithm-data-structure.md)
 
 ## temp
