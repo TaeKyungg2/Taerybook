@@ -19,7 +19,7 @@ layout:
 
 # Git, Github
 
-## [https://github.com/](https://github.com/)
+{% embed url="https://github.com/" %}
 
 ### git 소개
 
@@ -48,4 +48,4 @@ git 을 사용할 폴더에서, `add`를 하면, 그 폴더에서 관리할 파�
     * `git init` 를 하면 그 폴더가 git 이 관리되는 폴더로 바뀐다.(숨김 폴더 .git 이 생긴다.)
     * (여기까지 해도 commit 까지 가능하고, 그러므로 버전 관리가 가능하다.)
     * github 사이트에서 repository 를 만들고, `<>code` ,`HTTP` 버튼을 차례대로 누른 후 링크를 복사한다. 내 컴퓨터에서 이 repository 에 연결하기 위한 주소이다.
-    * github
+    * git remote origin main
