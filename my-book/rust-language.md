@@ -5,7 +5,7 @@ icon: crab
 
 # Rust language
 
-[https://www.rust-lang.org/](https://www.rust-lang.org/)
+{% embed url="https://www.rust-lang.org/" %}
 
 러스트는 c/c++ 급 성능을 내면서, 메모리 관리를 해줍니다.&#x20;
 
