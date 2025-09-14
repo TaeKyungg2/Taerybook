@@ -162,4 +162,4 @@ class _MyHomePageState extends State<MyHomePage> {
 * `func({argname})`  : 함수선언에 괄호안에 중괄호가 들어가있다. named argument이다. 호출할 때 `func(argname : value)` 형식으로 호출한다.
 * `var func() ⇒ express` 은 함수 선언이다.&#x20;
 * `() ⇒ {}` 이건 익명 함수(람다) 이다.
-* `const MyApp({super.key});` 는, `const MyApp({Key? key}) : super(key: key);` 와 같다. 부모에 키를 넘겨주는 건데, 위젯이 열려있는지 안열려있는지 확인하는 거다. 하지만, 플러터 성능이 좋아서 꼭 안넘기고 그냥 중복으로 열려도 된다고 한다.
+* `const MyApp({super.key});` 는, `const MyApp({Key? key}) : super(key: key);` 와 같다. 부모에 키를 넘겨주는 건데, 같은 위젯을 구분하기 위해서(element 를 새로 만들지, 재사용할지) key 가 있다. key 는 상태관리에서 아주 유용하다.
