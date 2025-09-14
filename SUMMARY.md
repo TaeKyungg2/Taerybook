@@ -13,6 +13,8 @@
 * [Rust language](my-book/rust-language/README.md)
   * [What is "Let"](my-book/rust-language/what-is-let.md)
 * [Algorithm/Data structure](my-book/algorithm-data-structure/README.md)
+  * [array(배열)](my-book/algorithm-data-structure/array.md)
+  * [시간 복잡도, 빅오 표기법](my-book/algorithm-data-structure/undefined.md)
   * [list/linked list](my-book/algorithm-data-structure/list-linked-list.md)
 * [Math](my-book/math/README.md)
   * [산술/조화/기하평균](my-book/math/undefined.md)
@@ -20,7 +22,3 @@
 ## temp
 
 * [Temp](temp/integrations.md)
-
-***
-
-* [array(배열)](array.md)
